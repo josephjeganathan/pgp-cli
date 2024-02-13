@@ -2,13 +2,13 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-
         <PackAsTool>true</PackAsTool>
         <ToolCommandName>pgp</ToolCommandName>
         <PackageOutputPath>./nupkg</PackageOutputPath>
         <TargetFramework>net6.0</TargetFramework>
         <RootNamespace>PgpCli</RootNamespace>
         <Description>PGPCore wrapper as a cli using dotnet tools</Description>
+        <Version>1.1.0</Version>
         <authors>Joseph Jeganathan</authors>
         <owners>Joseph Jeganathan</owners>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
