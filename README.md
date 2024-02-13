@@ -1,5 +1,7 @@
 # PGP CLI
 
+[![](http://img.shields.io/nuget/v/pgp-cli.svg?style=flat-square)](http://www.nuget.org/packages/pgp-cli/)
+
 PGP CLI uses PGPCore to,
 
 - Generate public/private keys
@@ -12,7 +14,7 @@ Checkout code and run the following commands
 
 ```sh
 dotnet pack
-dotnet tool install --global --add-source ./pgp-cli/nupkg pgp-cli
+dotnet tool install --global pgp-cli
 ```
 
 ### Using PGP CLI
