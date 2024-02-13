@@ -6,7 +6,7 @@
         <PackAsTool>true</PackAsTool>
         <ToolCommandName>pgp</ToolCommandName>
         <PackageOutputPath>./nupkg</PackageOutputPath>
-        <TargetFramework>netstandard2.0</TargetFramework>
+        <TargetFramework>net6.0</TargetFramework>
         <RootNamespace>PgpCli</RootNamespace>
         <Description>PGPCore wrapper as a cli using dotnet tools</Description>
         <authors>Joseph Jeganathan</authors>
