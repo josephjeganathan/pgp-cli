@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+
+        <PackAsTool>true</PackAsTool>
+        <ToolCommandName>pgp</ToolCommandName>
+        <PackageOutputPath>./nupkg</PackageOutputPath>
+
+        <TargetFramework>net8.0</TargetFramework>
+
+        <RootNamespace>PgpCli</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Encryption.fs"/>
+        <Compile Include="EncryptCommand.fs"/>
+        <Compile Include="DecryptCommand.fs"/>
+        <Compile Include="GenKeyCommand.fs"/>
+        <Compile Include="Program.fs"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="PgpCore" Version="6.3.1"/>
+        <PackageReference Include="Spectre.Console.Cli" Version="0.48.0"/>
+    </ItemGroup>
+
+</Project>
