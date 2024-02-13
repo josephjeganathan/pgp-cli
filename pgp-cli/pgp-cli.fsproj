@@ -6,10 +6,13 @@
         <PackAsTool>true</PackAsTool>
         <ToolCommandName>pgp</ToolCommandName>
         <PackageOutputPath>./nupkg</PackageOutputPath>
-
-        <TargetFramework>net8.0</TargetFramework>
-
+        <TargetFramework>netstandard2.0</TargetFramework>
         <RootNamespace>PgpCli</RootNamespace>
+        <Description>PGPCore wrapper as a cli using dotnet tools</Description>
+        <authors>Joseph Jeganathan</authors>
+        <owners>Joseph Jeganathan</owners>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
@@ -18,6 +21,8 @@
         <Compile Include="DecryptCommand.fs"/>
         <Compile Include="GenKeyCommand.fs"/>
         <Compile Include="Program.fs"/>
+
+        <None Include="../README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
 
     <ItemGroup>
