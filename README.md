@@ -40,7 +40,7 @@ pgp encrypt myfile.txt -k ./public.asc -o ./encrypted.pgp
 #### Decrypt File
 
 ```
-pgp decrypt ./encrypted.pgp "mypassword" -k ./private.asc -o ./decrypted.pgp
+pgp decrypt ./encrypted.pgp "my-strong-password" -k ./private.asc -o ./decrypted.pgp
 ```
 
 ## Uninstall dotnet tool
